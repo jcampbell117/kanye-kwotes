@@ -1,0 +1,38 @@
+body {
+  background-color: #30475e;
+  margin: 0;
+}
+.upper {
+  background-image: -webkit-linear-gradient(-85deg, #222831 50%, #30475e 50%);
+  min-height: 200px;
+  width: 100%;
+}
+
+.content {
+  margin-bottom: -200px;
+  min-height: 100%;
+  text-align: center;
+}
+
+.content h1 {
+  background-color: #ececec;
+  border: 7px solid #c1a57b;
+  border-radius: 12px;
+  font-family: 'Merriweather', serif;
+  margin: 0 25px;
+  padding: 12px;
+}
+
+.kwote {
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.lower {
+  background-image: -webkit-linear-gradient(-85deg, #30475e 50%, #222831 50%);
+  bottom: 0;
+  height: 200px;
+  position: absolute;
+  width: 100%;
+}
